@@ -1,0 +1,9 @@
+bool eq(int n, int a[], int b[])
+{
+	for (int i = 0; i < n; i++)
+	{
+		if (a[i] != b[i])
+			return false;
+	}
+	return true;
+}

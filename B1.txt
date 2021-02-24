@@ -1,0 +1,7 @@
+bool majority(bool a, bool b, bool c)
+{
+	if (a == false && b == false && c == false)
+		return false;
+	else
+		return true;	
+}
